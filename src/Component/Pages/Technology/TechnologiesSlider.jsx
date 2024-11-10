@@ -33,7 +33,7 @@ const TechnologiesSlider = () => {
         >
           {[ 
             { imgSrc: "./assets/html.png", label: "HTML" },
-            { imgSrc: "./assets/android.png", label: "Android" },
+            { imgSrc: "./assets/andriod.png", label: "Android" },
             { imgSrc: "./assets/bootstrap.png", label: "Bootstrap" },
             { imgSrc: "./assets/javascript.png", label: "JavaScript" },
             { imgSrc: "./assets/mysql.png", label: "MySQL" },

@@ -18,7 +18,7 @@ import HomeProjects from './Projects/HomeProjects'
 
 const Home = () => {
   return (
-    <div>
+    <div className=''>
        <HeroSection/>
       <AboutSection/> 
        

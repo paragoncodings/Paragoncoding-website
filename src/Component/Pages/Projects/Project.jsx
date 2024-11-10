@@ -4,7 +4,7 @@ import { FaLink, FaTimes } from "react-icons/fa";
 
 const websites = [
   { 
-    title: 'TeqTak Landing App', 
+    title: 'TeqTak Social App', 
     image: './assets/investersc.PNG', 
     description: 'Investor-focused landing page', 
     link: 'https://teqtak.vercel.app/', 

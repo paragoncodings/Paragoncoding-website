@@ -21,7 +21,7 @@ const TeamMemberDetail = () => {
           <img
             src={member.imgSrc}
             alt={member.name}
-            className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover shadow-xl transition-transform transform hover:scale-105 border-4 border-[#99FF00]"
+            className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-fill shadow-xl transition-transform transform hover:scale-105 border-4 border-[#99FF00]"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-30 rounded-full"></div>
         </div>
