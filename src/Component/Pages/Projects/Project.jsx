@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaLink, FaTimes } from "react-icons/fa";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const websites = [
   { 
@@ -105,10 +106,13 @@ const Project = () => {
     projectCategory === 'websites' ? websites 
     : projectCategory === 'apps' ? apps 
     : [...websites, ...apps].slice(0, visibleProjects);
+    useEffect(() => {
+      AOS.init({ duration: 3000 });
+    }, []);
 
   return (
     <div className=''>
-    <div className="container mx-auto p-5 mt-10 ">
+    <div className="container mx-auto p-5 mt-10 "data-aos="fade-right">
       
       <div className="flex gap-4 mb-4 ">
         {['all', 'websites', 'apps'].map((category) => (

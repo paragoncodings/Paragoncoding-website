@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaCheckCircle, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 
 const Footer = () => {
+ 
   return (
-    <footer className="bg-dark text-white py-10 mt-10">
+    <footer className="bg-dark text-white py-10 mt-10"  >
       <div className="container mx-auto px-4 space-y-10">
         {/* Header Section within Footer */}
         <div className="flex flex-col lg:flex-row justify-between items-center space-y-6 lg:space-y-0 lg:space-x-6">

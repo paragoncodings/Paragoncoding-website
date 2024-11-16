@@ -7,6 +7,7 @@ import 'swiper/css/pagination';
 import Hero1 from './Hero1';
 import Hero2 from './Hero2';
 import Hero3 from './Hero3';
+import { EffectFlip } from 'swiper';
 
 const HeroSection = () => {
   useEffect(() => {
@@ -30,12 +31,15 @@ const HeroSection = () => {
 
   return (
     <Swiper
-      modules={[Navigation, Pagination, Autoplay]}
+      modules={[Navigation, Pagination, Autoplay,EffectFlip]}
       spaceBetween={50}
       slidesPerView={1}
       autoplay={{ delay: 3000, disableOnInteraction: false }}
       navigation
-      pagination={{ clickable: true }}
+      // pagination={{ clickable: true }}
+     effect="flip"
+     
+
     >
       <SwiperSlide>
         <Hero1 />

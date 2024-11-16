@@ -1,17 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import teamMembers from './TeamData';
 import { Link } from 'react-router-dom';
 import PageTitle from '../PageTitle';
 import Footer from '../../Footer/Footer';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const TeamSection = () => {
+    useEffect(() => {
+        AOS.init({ duration: 3000 });
+      }, []);
     return (
         <>
         <PageTitle title="OUR TEAM"/>
         <section className="bg- py-24">
                {/* <h1 className='text-center text-2xl text-[#99FF00] py-8 font-bold'>OUR TEAM</h1> */}
-            <div className="container mx-auto px-4 ">
+            <div className="container mx-auto px-4 " data-aos="fade-right">
                 <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-8 gap-y-16 ">
                     {teamMembers.map((member, index) => (
                         <div key={index} className="flex flex-col bg-gray-100 rounded-lg shadow-md overflow-hidden border border-green">

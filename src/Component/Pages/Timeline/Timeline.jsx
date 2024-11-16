@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaMapMarkerAlt, FaCircle } from 'react-icons/fa';
 import strategyImage from './../../../assets/home-concept-item-1.png';
 import planningImage from './../../../assets/home-concept-item-2.png';
 import buildImage from './../../../assets/home-concept-item-3.png';
 import workImage from './../../../assets/project-home-1.jpg';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Timeline = () => {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  }, []);
   const steps = [
     { id: 1, title: 'Strategy', image: strategyImage, isLarge: false },
     { id: 2, title: 'Planning', image: planningImage, isLarge: false },
@@ -20,7 +24,7 @@ const Timeline = () => {
   ];
 
   return (
-    <div className="relative flex flex-col items-center overflow-hidden p-8 bg-white  ">
+    <div className="relative flex flex-col items-center overflow-hidden p-8 bg-white" >
       {/* Left and Right Icons */}
       <FaMapMarkerAlt className="absolute top-1/2 left-4 text-dark text-3xl transform -translate-y-1/2 z-10" />
       <FaMapMarkerAlt className="absolute top-1/2 right-4 text-dark text-3xl transform -translate-y-1/2 z-10" />
@@ -36,7 +40,7 @@ const Timeline = () => {
       </div>
 
       {/* Steps */}
-      <div className="flex items-center space-x-12 ">
+      <div className="flex items-center space-x-12"data-aos="fade-up-left">
         {steps.map((step, index) => (
           <div key={step.id} className="relative text-center">
             <div className="flex flex-col items-center">
