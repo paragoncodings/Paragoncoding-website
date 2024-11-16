@@ -24,7 +24,7 @@ const TeamSection = () => {
                                 <img
                                     src={member.imgSrc}
                                     alt={member.name}
-                                    className="w-full h-72 object-cover "
+                                    className="w-full h-72 object-fill "
                                 />
                                 <div className="absolute  inset-0 flex justify-center items-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-1000 cursor-pointer  ">
                                     <div className='w-56 mt-72  h-56 rounded-full bg-dark transform hover:scale-105 duration-300 transition-all '>

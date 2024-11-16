@@ -17,7 +17,7 @@ const services = [
       id: 2,
       title: 'Mobile Apps',
       description:
-        'To improve your digital strategy and benefit from all the advantages of the mobile digital age, the mobile application allows you to open new distribution channels for your business. A dedicated application makes it possible to improve the visibility of brands, build customer loyalty, promote, locate products and services or even improve your companys business processes. '
+        'To improve your digital strategy and benefit from all the advantages of the mobile digital age, the mobile application allows you to open new distribution channels for your business. A dedicated application makes it possible to improve the visibility of brands, build customer loyalty, promote, locate products and services or even improve your companys business processes.If you are aiming to increase your business make mobile app'
         ,
       imgUrl: MobileApps, // Replace with actual image URL
     },
@@ -30,16 +30,17 @@ const services = [
     },
     {
       id: 4,
-      title: 'Android Apps',
+      title: 'WordPress Sites',
       description:
-        'In a very short span of time, we can produce breaking new ground sort of applications for our customers which will surely provide comfort to huge population who is currently using android version. In short we are your one stop solution as far as android versions are concerned. These applications are bringing innovation into our lives and as we are changing our mode of living and we are adapting to technology.',
+        'Our team excels in developing high-quality WordPress sites tailored to meet the unique needs of our clients. We focus on creating dynamic and visually engaging websites that are both user-friendly and optimized for performance. From eCommerce stores to personal blogs, our WordPress solutions are crafted to bring your vision to life while staying aligned with the latest industry standards.',
       imgUrl: AndroidApps, // Replace with actual image URL
     },
+    
     {
       id: 5,
       title: 'Digital Marketing',
       description:
-        'We will do digital marketing for your brand, your company, your products / services. The world is currently online, as are brands, companies, products and services in order to reach and interact with as many customers as possible. We merge marketing with design and technology to provide you with a complete digital marketing package. We are putting our efforts to increase customer satisfaction and flexibility',
+        'We will do digital marketing for your brand, your company, your products / services. The world is currently online, as are brands, companies, products and services in order to reach and interact with as many customers as possible. We merge marketing with design and technology to provide you with a complete digital marketing package. We are putting our efforts to increase customer satisfaction ',
       imgUrl: DigitalMarketing, // Replace with actual image URL
     },
     {

@@ -24,10 +24,13 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="flex items-center justify-between px-4 md:px-8  bg-dark  sticky top-0 z-20 border-b-2 border-green">
+      <div className="flex items-center justify-between px-4 md:px-8  bg-dark  sticky top-0 z-20 border-b-2 border-green text-xl">
         {/* Logo */}
-        <img src={logo} alt="Company Logo" className="w-10 h-10 m-1 rounded-full md:w-20 md:h-20  object-contain cursor-pointer transition-transform transform hover:scale-105" />
-
+      <div className='flex'>
+      <img src={logo} alt="Company Logo" className="w-10 h-10 m-1 rounded-full md:w-20 md:h-20  object-contain cursor-pointer transition-transform transform hover:scale-105" />
+      <h1 className='mt-6 ml-1 text-blue hover:text-green cursor-pointer text-3xl '>Paragon Coding's</h1>
+      </div>
+          
         {/* Navigation Links for Large Screens */}
         <ul className="hidden md:flex gap-6 lg:gap-8 text-blue font-bold">
           {[
