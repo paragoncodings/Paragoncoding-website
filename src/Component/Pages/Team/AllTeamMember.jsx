@@ -47,7 +47,7 @@ const TeamSection = () => {
 
 
                             </Link>
-                            <div className="cursor-pointer p-4 w-60 ml-6  border border-green bg-dark absolute mt-60 shadow-xl rounded-md  text-center group transition-all  ">
+                            <div className="cursor-pointer p-4 w-auto ml-6  border border-green bg-dark absolute mt-60 shadow-xl rounded-md  text-center group transition-all  ">
 
                                 <div className="relative z-10 ">
                                     <h3 className="text-xl font-semibold mb-2 group-hover:text-white">

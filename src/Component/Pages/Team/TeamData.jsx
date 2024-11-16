@@ -11,7 +11,7 @@ const teamMembers = [
         id: 1,
         imgSrc: gill,
         name: 'M Abdul Rahman Gill',
-        position: 'Full Stack Developer',
+        position: 'C.E.O & Full Stack Developer ',
         profileLink: 'https://mabdulrahmandev.vercel.app',
         socialLinks: {
             facebook: 'https://www.facebook.com/ch.abdulrahmangill',
@@ -28,7 +28,7 @@ const teamMembers = [
         id: 2,
         imgSrc:jalali ,
         name: 'Wali Haider Jalali ',
-        position: 'Mern Stack Developer',
+        position: 'C.F.O & Mern Stack Developer',
         profileLink: 'https://walihaider2004.github.io/Personal-Portfolio/',
         socialLinks: {
             facebook: 'https://www.facebook.com/profile.php?id=100070531525032&mibextid=ZbWKwL',
@@ -45,7 +45,7 @@ const teamMembers = [
         imgSrc:mali,
 
         name: 'Muhammad Ali',
-        position: ' Mern Stack Developer',
+        position: 'C.O.O & Mern Stack Developer',
         profileLink: 'https://muhammadali35.github.io/Personal_Portfolio/',
         socialLinks: {
             facebook: 'https://www.facebook.com/profile.php?id=100061582960084/',
@@ -61,7 +61,7 @@ const teamMembers = [
         id: 4,
         imgSrc:rizu,
         name: 'Muhammad Rizwan ',
-        position: 'Web Developer',
+        position: 'C.M.O & Web Developer',
         profileLink: './../../',
         socialLinks: {
             facebook: 'https://www.facebook.com/rizwan.razzaq.7771',
@@ -77,7 +77,7 @@ const teamMembers = [
         id:5,
         imgSrc: umair ,
         name: ' Umair Rasheed',
-        position: 'App Developer',
+        position: 'Team Lead & App Developer',
         profileLink: 'https://wordpress.themeholy.com/webteck/team-details/',
         socialLinks: {
             facebook: 'https://facebook.com/',
@@ -93,7 +93,7 @@ const teamMembers = [
         id: 6,
         imgSrc: alihassan ,
         name: ' Ali Hassan',
-        position: 'WordPress Developer',
+        position: 'WordPress Developer & SEO ',
         profileLink: 'https://wordpress.themeholy.com/webteck/team-details/',
         socialLinks: {
             facebook: 'https://www.facebook.com/profile.php?id=100017724332180&mibextid=ZbWKwL',
@@ -108,8 +108,8 @@ const teamMembers = [
     {
         id: 7,
         imgSrc: zaid ,
-        name: ' Zaid Rasheed .',
-        position: 'Python Developer',
+        name: ' Zaid Rasheed ',
+        position: 'Python Developer & Django ',
         profileLink: 'https://wordpress.themeholy.com/webteck/team-details/',
         socialLinks: {
             facebook: 'https://m.facebook.com/zaid.rasheed.1088/',
